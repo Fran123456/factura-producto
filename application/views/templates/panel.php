@@ -2,13 +2,18 @@
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
-                <a href="<?php echo base_url()?>add-factura">
+                <a href="<?php echo base_url()?>">
                     <img src="<?php echo base_url()?>assets/images/icon/logo.png" alt="Cool Admin" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
+
+                         <li>
+                            <a href="<?php echo  base_url()?>dashboard">
+                                <i class="fas fa-home"></i>Dasboard</a>
+                        </li>
 
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
@@ -32,6 +37,11 @@
                         <li>
                             <a href="<?php echo  base_url()?>products">
                                 <i class="far fa-lemon"></i>Productos</a>
+                        </li>
+
+                        <li>
+                            <a href="<?php echo  base_url()?>clientes">
+                                <i class="fas fa-users"></i>Clientes</a>
                         </li>
 
 

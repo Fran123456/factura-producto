@@ -23,7 +23,6 @@
                                           <script> success('Factura agreda correctamente'); </script>
                                    <?php endif; ?>
 
-
                      <div class=" row ">
                             <div class="col-md-12">
                                   

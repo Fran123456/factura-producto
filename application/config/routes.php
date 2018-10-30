@@ -71,5 +71,10 @@ $route['PDF/(:any)'] = 'Factura_Controller/pdf/$1';
 $route['PDF-download/(:any)'] = 'Factura_Controller/pdf_download/$1';
 
 
+
+$route['clientes'] = 'Cliente_Controller';
+$route['cliente/(:any)'] = 'Cliente_Controller/show_cliente/$1';
+
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

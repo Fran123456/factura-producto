@@ -1,4 +1,10 @@
 
+ 
+
+
+
+
+
 (function ($) {
   // USE STRICT
   "use strict";
@@ -331,17 +337,25 @@
       });
     }
 
+
+   
+     
     // Percent Chart
+
+
     var ctx = document.getElementById("percent-chart");
     if (ctx) {
+
       ctx.height = 280;
+
+
       var myChart = new Chart(ctx, {
         type: 'doughnut',
         data: {
           datasets: [
             {
               label: "My First dataset",
-              data: [60, 40],
+              data: [ cero, cero2],
               backgroundColor: [
                 '#00b5e9',
                 '#fa4251'
@@ -360,7 +374,7 @@
             }
           ],
           labels: [
-            'Products',
+            'Disponibles',
             'Services'
           ]
         },

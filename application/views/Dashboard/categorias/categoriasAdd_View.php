@@ -42,7 +42,7 @@
                                                     <textarea required="" rows="6" id="descripcion" name="descripcion" class="form-control"></textarea>
                                                 </div>
                                             </div>
-                                        </form>
+                                    
                                     </div>
                                     <div class="card-footer">
                                         <button class="btn btn-primary btn-sm" type="submit">

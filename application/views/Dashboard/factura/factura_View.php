@@ -22,6 +22,7 @@
           
               <div class=" row ">
                             <div class="col-md-12">
+                              <h3>Facturas</h3>
                                     <?php if($this->session->flashdata('categoriaSuccess')): ?>
                                           <script> success('Categoria agregada correctamente'); </script>
                                    <?php endif; ?>

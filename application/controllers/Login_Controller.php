@@ -43,7 +43,7 @@ class Login_Controller extends CI_Controller {
             'login' => TRUE,
          );
          $this->session->set_userdata($data); //asignamos los datos a la sesión
-          redirect(base_url().'add-factura'); //redirigimos al dashboard
+          redirect(base_url().'dashboard'); //redirigimos al dashboard
         
 	    }
 	}

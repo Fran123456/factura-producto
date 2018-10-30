@@ -28,6 +28,7 @@
               <div class=" row ">
 
                             <div class="col-md-12">
+                              <h3>Productos</h3>
                                     <?php if($this->session->flashdata('productoSuccess')): ?>
                                           <script> success('Producto agregado correctamente'); </script>
                                    <?php endif; ?>
